@@ -12,12 +12,11 @@ Fala Devs, beleza? 🖖
 
 
 ##  Desafio dia 01 - Banner do desafio 100 Days CSS
-<p>
-  <img src="img\01.jpg"/>
-</p>
+<img src="img\01.jpg"/>
 
 
-[Meu codigo no Github]()
+
+[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Day-01)
 
 [Meu codigo no codePen](https://codepen.io/kevenalves/pen/popYYPO)
 
