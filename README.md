@@ -12,7 +12,9 @@ Fala Devs, beleza? 🖖
 
 
 ##  Desafio dia 01 - Banner do desafio 100 Days CSS
-![Dia 01](img\01.jpg)
+<p>
+  <img src="img\01.jpg"/>
+</p>
 
 
 [Meu codigo no Github]()
