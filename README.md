@@ -16,7 +16,7 @@ Fala Devs, beleza? 🖖
 
 
 
-[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Day-01)
+[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-01)
 
 [Meu codigo no codePen](https://codepen.io/kevenalves/pen/popYYPO)
 
