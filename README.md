@@ -7,8 +7,8 @@ Fala Devs, beleza? 🖖
 
 ## Objetivo
 
- 100 dias de CSS3 é um desafio que vou aceitar <i>e você também pode participar</i> no site: <a href="https://100dayscss.com/">100DaysCss</a>. </br>
- Estou começando este desafio no dia 21 de Abril de 2022, com o intuito de melhorar minhas habilidades em HTML e CSS através da realização de projetos.
+ 100 dias de CSS3 é um desafio que vou aceitar *e você também pode participar* no site: <a href="https://100dayscss.com/">100DaysCss</a>. </br>
+ Estou começando este desafio no dia 21 de Abril de 2022, com o intuito de fazer 30 projetos que estejam mais alinhados com os meus objetivos e, consequentemente, melhorar minhas habilidades em HTML e CSS através da realização destes projetos.
 
 </br>
 
