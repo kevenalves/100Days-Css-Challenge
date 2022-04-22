@@ -51,6 +51,7 @@ Fala Devs, beleza? 🖖
  - *[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)*
 
 </br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
