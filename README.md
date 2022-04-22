@@ -32,7 +32,7 @@ Fala Devs, beleza? 🖖
 
 </br>
 
-##  Desafio dia 02 - Banner do desafio 100 Days CSS
+##  Desafio dia 02 - Menu Icon
 <img src="https://j.gifs.com/jYBpNv.gif"/>
 
 
