@@ -1,4 +1,4 @@
-# 🔥 100DiasDeCss 🔥
+# 🔥 100DiasDeCss
 
 Fala Devs, beleza? 🖖
 
@@ -8,7 +8,7 @@ Fala Devs, beleza? 🖖
 ## Objetivo
 
  100 dias de CSS3 é um desafio que vou aceitar *e você também pode participar* no site: <a href="https://100dayscss.com/">100DaysCss</a>. </br>
- Estou começando este desafio no dia 21 de Abril de 2022, com o intuito de fazer 30 projetos que estejam mais alinhados com os meus objetivos e, consequentemente, melhorar minhas habilidades em HTML e CSS através da realização destes projetos.
+ Estou começando este desafio no dia 21 de Abril de 2022, e apesar deste desafio ser de 100 dias, resolvi fazer por 30 dias, com os 30 projetos que estejam mais alinhados com os meus objetivos e, consequentemente, melhorar minhas habilidades em HTML e CSS através da realização destes projetos.
 
 </br>
 
@@ -49,6 +49,25 @@ Fala Devs, beleza? 🖖
  - *[Cubic Bezier](https://www.w3schools.com/cssref/func_cubic-bezier.asp)*
  - *[translate3d](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d)*
  - *[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)*
+
+</br>
+
+##  Desafio dia 03 - Button Hover
+<img src="https://j.gifs.com/k2gAM5.gif"/>
+
+
+
+[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-03)
+
+[CodePen](https://codepen.io/kevenalves/pen/ZEvNzee)
+
+
+##### O que eu aprendi/utilizei
+
+
+ - *[Stroke animation](https://css-tricks.com/svg-line-animation-works/)*
+ - *[Stroke-width](https://css-tricks.com/almanac/properties/s/stroke-width/)*
+
 
 </br>
 
