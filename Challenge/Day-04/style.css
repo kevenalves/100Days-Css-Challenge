@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #eee;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+.stripes {
+  position: relative;
+  top: -4.188rem;
+  left: -6.25rem;
+  width: 37.5rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.stripes .stripe {
+  background: #353535;
+  width: 37.5rem;
+  height: 3px;
+  margin-bottom: 1rem;
+}
+
+.center {
+  position: absolute;
+  width: 16.25rem;
+  height: 16.25rem;
+  top: 4.375rem;
+  left: 4.375rem;
+  background: #353535;
+  border-radius: 3px;
+  -webkit-box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.polygon {
+  position: absolute;
+  width: 160px;
+  height: 140px;
+  top: 3.75rem;
+  left: 3.125rem;
+}
+
+@media (max-width: 720px) {
+  .polygon {
+    top: 3rem;
+    left: 2.5rem;
+  }
+}
+
+.polygon .light {
+  fill: #eee;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.polygon .middle {
+  fill: #ccc;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.polygon .dark {
+  fill: #aaa;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.polygon:hover .light {
+  fill: #aaa;
+}
+
+.polygon:hover .middle {
+  fill: #eee;
+}
+
+.polygon:hover .dark {
+  fill: #ccc;
+}
+/*# sourceMappingURL=style.css.map */

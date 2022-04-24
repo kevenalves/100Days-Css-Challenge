@@ -71,6 +71,24 @@ Fala Devs, beleza? 🖖
 
 </br>
 
+##  Desafio dia 04 - Penrose Triangle
+<img src="https://j.gifs.com/NOGlmK.gif"/>
+
+
+
+[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-04)
+
+[CodePen](https://codepen.io/kevenalves/pen/WNdBpBq)
+
+
+##### O que eu aprendi/utilizei
+
+
+ - *[Fill Manipulation](https://css-tricks.com/the-many-ways-to-change-an-svg-fill-on-hover-and-when-to-use-them/)*
+ - *[Rotate](https://css-tricks.com/almanac/properties/r/rotate/)*
+
+ </br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
