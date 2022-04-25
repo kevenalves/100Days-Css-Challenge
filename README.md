@@ -89,6 +89,24 @@ Fala Devs, beleza? 🖖
 
  </br>
 
+##  Desafio dia 05 - The Pyramide
+<img src="https://j.gifs.com/A6rww1.gif"/>
+
+
+
+[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-05)
+
+[CodePen](https://codepen.io/kevenalves/pen/LYeKppM)
+
+
+##### O que eu aprendi/utilizei
+
+
+ - *[clip-path](https://css-tricks.com/almanac/properties/c/clip-path/)*
+ - *[transform-origin](https://css-tricks.com/almanac/properties/t/transform-origin/)*
+
+ </br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
