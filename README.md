@@ -107,6 +107,28 @@ Fala Devs, beleza? 🖖
 
  </br>
 
+##  Desafio dia 06 - Profile
+<img src="https://j.gifs.com/462pXJ.gif"/>
+
+
+
+[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-06)
+
+[CodePen](https://codepen.io/kevenalves/pen/OJzeXEb)
+
+
+##### O que eu aprendi/utilizei
+
+
+*[transition](https://css-tricks.com/almanac/properties/t/transition/)*
+*[rotate](https://css-tricks.com/almanac/properties/r/rotate/)*
+*[filter](https://css-tricks.com/almanac/properties/f/filter/)*
+*[fetch](https://css-tricks.com/using-fetch/)*
+*[textContent](https://www.w3schools.com/jsref/prop_node_textcontent.asp)*
+*[setAttribute](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/setAttribute)*
+
+ </br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
