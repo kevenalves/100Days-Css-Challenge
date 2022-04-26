@@ -120,12 +120,12 @@ Fala Devs, beleza? 🖖
 ##### O que eu aprendi/utilizei
 
 
-*[transition](https://css-tricks.com/almanac/properties/t/transition/)*
-*[rotate](https://css-tricks.com/almanac/properties/r/rotate/)*
-*[filter](https://css-tricks.com/almanac/properties/f/filter/)*
-*[fetch](https://css-tricks.com/using-fetch/)*
-*[textContent](https://www.w3schools.com/jsref/prop_node_textcontent.asp)*
-*[setAttribute](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/setAttribute)*
+* *[transition](https://css-tricks.com/almanac/properties/t/transition/)*
+* *[rotate](https://css-tricks.com/almanac/properties/r/rotate/)*
+* *[filter](https://css-tricks.com/almanac/properties/f/filter/)*
+* *[fetch](https://css-tricks.com/using-fetch/)*
+* *[textContent](https://www.w3schools.com/jsref/prop_node_textcontent.asp)*
+* *[setAttribute](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/setAttribute)*
 
  </br>
 
