@@ -129,6 +129,24 @@ Fala Devs, beleza? 🖖
 
  </br>
 
+ ##  Desafio dia 07 - Statistic
+<img src="https://j.gifs.com/K8BOY8.gif"/>
+
+
+
+[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-07)
+
+[CodePen](https://codepen.io/kevenalves/pen/popXqLq)
+
+
+##### O que eu aprendi/utilizei
+
+
+* *[extend](https://css-tricks.com/the-extend-concept/)*
+* *[content](https://css-tricks.com/css-content/)*
+
+ </br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
