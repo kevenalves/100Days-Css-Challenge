@@ -129,7 +129,7 @@ Fala Devs, beleza? 🖖
 
  </br>
 
- ##  Desafio dia 07 - Statistic
+##  Desafio dia 07 - Statistic
 <img src="https://j.gifs.com/K8BOY8.gif"/>
 
 
@@ -144,6 +144,27 @@ Fala Devs, beleza? 🖖
 
 * *[extend](https://css-tricks.com/the-extend-concept/)*
 * *[content](https://css-tricks.com/css-content/)*
+
+ </br>
+
+##  Desafio dia 08 - Carousel
+<img src="https://j.gifs.com/A6oNW1.gif"/>
+
+
+
+[Meu codigo no Github](https://github.com/kevenalves/glideTemplate)
+
+[CodePen](https://codepen.io/kevenalves/pen/NWyKrwG)
+
+
+##### O que eu aprendi/utilizei
+
+
+* *[user-select](https://css-tricks.com/almanac/properties/u/user-select/)*
+* *[direction](https://css-tricks.com/almanac/properties/d/direction/)*
+* *[will-change](https://css-tricks.com/almanac/properties/w/will-change/)*
+* *[backface-visibility](https://css-tricks.com/almanac/properties/b/backface-visibility/)*
+* *[glideJs](https://glidejs.com/)*
 
  </br>
 
