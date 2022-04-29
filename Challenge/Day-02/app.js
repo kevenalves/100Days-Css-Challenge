@@ -4,7 +4,12 @@ let noAnimation = document.querySelectorAll('.no-animation')
 menu.addEventListener('click', function(){
     menu.classList.toggle('active');
 
-    for(let i = noAnimation.length - 1; i>= 0; i-- ){
-        noAnimation[i].classList.remove('no-animation');
-    }
+    // for(let i = noAnimation.length - 1; i>= 0; i-- ){
+    //     noAnimation[i].classList.remove('no-animation');
+    // }
+
+    // refactoring for foreach
+    noAnimation.forEach(element => {
+        element.classList.remove('no-animation');
+    });
 });
