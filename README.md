@@ -168,6 +168,27 @@ Fala Devs, beleza? 🖖
 
  </br>
 
+##  Desafio dia 09 - Notifications, Search and Menu
+<img src="https://j.gifs.com/pZKZE6.gif"/>
+
+
+
+[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-09)
+
+[CodePen](https://codepen.io/kevenalves/pen/XWZWdxb)
+
+
+##### O que eu aprendi/utilizei
+
+
+* *[translate3d](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d)*
+* *[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)*
+* *[animation](https://css-tricks.com/almanac/properties/a/animation/)*
+* *[Animation fill-mode](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation-fill-mode)*
+* *[extend](https://css-tricks.com/the-extend-concept/)*
+
+ </br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
