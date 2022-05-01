@@ -189,6 +189,27 @@ Fala Devs, beleza? 🖖
 
  </br>
 
+ ##  Desafio dia 10 - Metaballs
+<img src="https://j.gifs.com/x651W9.gif"/>
+
+
+
+[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-10)
+
+[CodePen](https://codepen.io/kevenalves/pen/rNJNeoV)
+
+
+##### O que eu aprendi/utilizei
+
+
+* *[filter](https://css-tricks.com/almanac/properties/f/filter/)*
+* *[Loop Sass](https://css-tricks.com/how-to-write-loops-with-preprocessors/)*
+* *[transform-origin](https://css-tricks.com/almanac/properties/t/transform-origin/)*
+* *[animation](https://css-tricks.com/almanac/properties/a/animation/)*
+* *[rotate](https://css-tricks.com/almanac/properties/r/rotate/)*
+
+ </br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
