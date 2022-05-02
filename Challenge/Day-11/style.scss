@@ -1,0 +1,479 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+$drop-color: #7FC1F9;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  @media (max-width: 1080px) {
+      font-size: 93.75%;
+  }
+  
+  @media (max-width: 720px) {
+      font-size: 87.5%;
+  }
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25rem;
+  height: 25rem;
+  margin-top: -12.5rem;
+  margin-left: -12.5rem;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+  background: #1A2238;
+  color: #394568;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow: hidden;
+}
+
+.sun{
+	display: none;
+	position: absolute;
+	width: 4.188rem;
+	height: 4.188rem;
+	top: 2.813rem;
+	left: 3.438rem;
+	border-radius: 3.125rem;
+	background: #ffa500;
+	overflow: hidden;
+	box-shadow: 0 0 10px 0 #ffa500;
+	animation: rise 1s ease-out;
+}
+
+.moon {
+	@extend .sun;
+	background: #F6EDBD;
+	box-shadow: 0 0 10px 0 #F6EDBD;
+
+	
+	.crater-1 {
+		position: absolute;
+		width: 0.688rem;
+		height: 0.688rem;
+		top: 0.563;
+		left: 1.75rem;
+		border-radius: 0.625rem;
+		background: #ECE1A8;
+	}
+	
+	.crater-2 {
+		@extend .crater-1;
+		top: 0.75rem;
+		left: 0;
+	}
+	
+	.crater-3 {
+		@extend .crater-1;
+		top: 3.5rem;
+		left: 0.625rem;
+	}
+	
+	.crater-4 {
+		@extend .crater-1;
+		width: 0.375rem;
+		height: 0.375rem;
+		top: 2.313rem;
+		left: 3.063rem;
+	}
+	
+	.crater-5 {
+		@extend .crater-4;
+		top: 1.5rem;
+		left: 3.813rem;
+	}
+	
+	.crater-6 {
+		@extend .crater-4;
+		top: 3.438rem;
+		left: 2.063rem;
+	}
+	
+	.crater-7 {
+		@extend .crater-4;
+		top: 1.063rem;
+		left: 2.875rem;
+	}
+	
+	.crater-8 {
+		@extend .crater-4;
+		top: 1.75rem;
+		left: 1.688rem;
+	}
+	
+	.crater-9 {
+		@extend .crater-4;
+		top: 2.438rem;
+		left: 1.063rem;
+	}
+	
+	.crater-10 {
+		@extend .crater-1;
+		width: 0.25rem;
+		height: 0.25rem;
+		top: 1.563rem;
+		left: 0.938rem;
+	}
+	
+	.crater-11 {
+		@extend .crater-10;
+		top: 2.313rem;
+		left: 2.313rem;
+	}
+	
+}
+
+.hill-bg-color{
+	background: #26314F;
+}
+
+.hill-bg-1 {
+	position: absolute;
+	z-index: 2;
+	width: 21.063rem;
+	height: 17.563rem;
+	top: 12.563rem;
+	left: -3.563rem;
+	border-radius: 50%;
+}
+
+.hill-bg-2 {
+	@extend .hill-bg-1;
+	top: 12.313rem;
+	left: 11.063rem;
+}
+
+.hill-fg-color{
+	background: #303C5D;
+}
+
+.hill-fg-1 {
+	@extend .hill-bg-1;
+	top: 15.5rem;
+	left: -8.563rem;
+}
+
+.hill-fg-2 {
+	@extend .hill-fg-1;
+	top: 13.813rem;
+	left: 3.938rem;
+}
+
+.hill-fg-3 {
+	@extend .hill-fg-1;
+	top: 15.5rem;
+	left: 18.25rem;
+}
+
+.front {
+	position: absolute;
+	z-index: 10;
+	width: 25rem;
+	height: 7.5rem;
+	left: 0px;
+	bottom: 0px;
+	background: #fff;
+
+  .infoCity{
+    p{
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.3rem;
+
+      .description{
+        font-weight: 600;
+        font-size: 1rem;
+      }
+    }
+
+    &:first-child p + p{
+      font-weight: 300;
+      font-size: 0.875rem;
+    }
+  }
+
+  .infoTemp{
+    display: flex;
+    justify-content: space-around;
+  }
+	
+	
+	.temperature {
+		margin-left: 1.25rem;
+		font-size: 2.375rem;
+		line-height: 5.625rem;
+	}
+
+	.info {
+    font-weight: 400;
+		text-align: right;
+		font-size: 0.938rem;
+		line-height: 1.25rem;
+		margin: 1.55rem 0 0 0;
+
+    p {
+			padding: 0 3px;
+			
+			span {
+				font-weight: 300;	
+			}
+		}
+	}
+	
+	.preview {
+    @extend .info;
+	}
+	
+}
+
+.rainNone{
+  display: none;
+}
+
+@for $i from 1 through 10 {
+	
+	.drop-big-#{$i} {
+		position: absolute;
+		z-index: 20;
+		left: (-20 + 38 * $i) + px;
+		bottom: 7.5rem;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: $drop-color;
+		animation: drop (0.7 + random(2) / 10) + s linear (random(50) / 25) + s infinite;
+		animation-fill-mode: both;
+		transform-origin: 50% 100%;
+
+		&:before {
+			position: absolute;
+			content: '';
+			display: block;
+			top: -2px;
+			left: 1px;
+			width: 6px;
+			height: 6px;
+			background: $drop-color;
+			border-radius: 3px;
+		}
+
+		&:after {
+			position: absolute;
+			content: '';
+			display: block;
+			top: -5px;
+			left: 2px;
+			width: 4px;
+			height: 10px;
+			background: $drop-color;
+			border-radius: 50%;
+		}
+
+	}	
+	
+	.drop-medium-#{$i} {
+		@extend .drop-big-1;
+		left: (-20 + 38 * $i) + px;
+		opacity: 0.6;
+		width: 6px;
+		height: 6px;
+		animation: drop (1.3 + random(2) / 10) + s linear (random(50) / 25) + s infinite;
+		animation-fill-mode: both;
+		
+		&:before {
+			top: -2px;
+			left: 1px;
+			width: 4px;
+			height: 4px;
+		}
+		
+		&:after {
+			top: -4px;
+			left: 2px;
+			width: 2px;
+			height: 6px;
+		}
+		
+	}
+	
+	.drop-small-#{$i} {
+		@extend .drop-big-1;
+		left: (-20 + 38 * $i) + px;
+		opacity: 0.3;
+		width: 4px;
+		height: 4px;
+		animation: drop (1.9 + random(2) / 10) + s linear (random(50) / 25) + s infinite;
+		animation-fill-mode: both;
+		
+		&:before {
+			top: -2px;
+			left: 1px;
+			width: 2px;
+			height: 2px;
+		}
+		
+		&:after {
+			top: -3px;
+			left: 1px;
+			width: 2px;
+			height: 4px;
+		}
+		
+	}
+	
+}
+
+/* CLOUND */
+
+.cloundNone{
+  display: none;
+}
+
+.centerClound {
+  z-index: 1;
+  position: absolute; 
+	top: 5.625rem;
+	left: 4.688rem;
+  animation: rise 1.5s ease-out;
+}
+
+.centerClound2 {
+  z-index: 1;
+  position: absolute;
+	top: 3.75rem;
+	left: 10.625rem;
+  animation: rise 1.5s ease-out;
+}
+
+.cloud-bg{
+	background: #26314F;
+}
+
+.cloud {
+  width: 4.688rem; 
+  height: 1.563rem;
+  border-radius: 2.344rem;
+  box-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+
+.cloud-after {
+	position: absolute;
+	width: 1.563rem;
+	height: 1.563rem;
+	border-radius: 50%;
+	top: -0.781rem;
+	left: 0.781rem;
+  }
+
+.cloud-before {
+	position: absolute;
+	width: 2.656rem;
+	height: 2.344rem;
+	border-radius: 50%;
+	top: -1.406rem;
+	right: 0.625rem;
+  }
+/* CLOUND */
+
+// THUDNER
+
+.thunderNone{
+  display: none;
+}
+
+.lightning {
+  $lightningFlash: lightningFlash 3s linear infinite;
+  $yellow: #fcd422;
+
+  @keyframes lightningFlash {
+    0%,
+    39% {
+      opacity: 0;
+    }
+    40%,
+    60% {
+      opacity: 1;
+    }
+    61%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 5.625rem;
+	left: 4.688rem;
+  animation: $lightningFlash;
+
+  @mixin sharedBolt {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 50%;
+    left: 50%;
+    top: 5%;
+    right: 47%;
+    bottom: 5%;
+    transform: rotate(20deg);
+    background: $yellow;
+  }
+
+  $triangleUp: polygon(50% 0%, 0% 100%, 100% 100%);
+  $triangleDown: polygon(50% 100%, 0 0, 100% 0);
+
+  &:before {
+    @include sharedBolt;
+    bottom: unset;
+    right: unset;
+    clip-path: $triangleUp;
+  }
+
+  &:after {
+    @include sharedBolt;
+    top: unset;
+    left: unset;
+    clip-path: $triangleDown;
+  }
+}
+
+.lightning2 {
+  @extend .lightning;
+    top: 3.75rem;
+    left: 10.625rem;
+}
+
+// END THUNDER
+
+// ANIMATIONS
+@keyframes drop {
+	0% {
+		transform: translate3d(40px,-320px,0) scaleX(1) scaleY(1) rotate(17deg);
+	}
+	85% {
+		transform: translate3d(0,0,0) scaleX(1) scaleY(1) rotate(17deg);
+	}
+	100% {
+		transform: translate3d(0,0,0) scaleX(3) scaleY(0) rotate(0deg);
+	}
+}
+
+@keyframes rise {
+	from {
+		transform: translate(-20px,200px);
+	}
+	to {
+		transform: translate(0,0px);
+	}
+}

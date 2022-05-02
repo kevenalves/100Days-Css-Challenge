@@ -187,9 +187,9 @@ Fala Devs, beleza? 🖖
 * *[Animation fill-mode](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation-fill-mode)*
 * *[extend](https://css-tricks.com/the-extend-concept/)*
 
- </br>
+</br>
 
- ##  Desafio dia 10 - Metaballs
+##  Desafio dia 10 - Metaballs
 <img src="https://j.gifs.com/x651W9.gif"/>
 
 
@@ -208,7 +208,31 @@ Fala Devs, beleza? 🖖
 * *[animation](https://css-tricks.com/almanac/properties/a/animation/)*
 * *[rotate](https://css-tricks.com/almanac/properties/r/rotate/)*
 
- </br>
+</br>
+
+##  Desafio dia 11 - Clima Tempo
+<img src="img\dayOrNight.png"/>
+<img src="https://j.gifs.com/OgkEZY.gif"/>
+
+Projeto desenvolvido recebendo os dados da API da Open Weather. </br>
+O projeto tem variação de cores de acordo com a hora do dia e, mudança na animação de acordo com o clima do tempo. As animações variam de 'céu limpo', chuva, nublado e tempestade. 
+
+[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-11)
+
+[CodePen](https://codepen.io/kevenalves/pen/VwQwGjR)
+
+[Netlify](https://climatempo-kev.netlify.app/)
+
+
+##### O que eu aprendi/utilizei
+
+
+* *[Geolocation](https://developer.mozilla.org/pt-BR/docs/Web/API/Geolocation_API)*
+* *[Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)*
+* *[API Open Weather](https://openweathermap.org/api)*
+* *[animation](https://css-tricks.com/almanac/properties/a/animation/)*
+
+</br>
 
 ## 📝 License
 
