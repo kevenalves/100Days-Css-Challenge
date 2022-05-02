@@ -2,13 +2,13 @@
 
 Fala Devs, beleza? 🖖
 
-100 dias de CSS3 é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios com HTML, CSS e JS. 
+30 dias de CSS3 é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios com HTML, CSS e JS. 
 
 
 ## Objetivo
 
- 100 dias de CSS3 é um desafio que vou aceitar *e você também pode participar* no site: <a href="https://100dayscss.com/">100DaysCss</a>. </br>
- Estou começando este desafio no dia 21 de Abril de 2022, e apesar deste desafio ser de 100 dias, resolvi fazer por 30 dias, com os 30 projetos que estejam mais alinhados com os meus objetivos e, consequentemente, melhorar minhas habilidades em HTML, CSS e Javascript através da realização de projetos.
+ Vou aceitar o desafio do site: <a href="https://100dayscss.com/">100DaysCss</a> *e você também pode participar!* </br>
+ Estou começando este desafio no dia 21 de Abril de 2022, e apesar deste desafio ser de 100 dias, resolvi fazer por 30 dias, com os 30 projetos que estejam mais alinhados com os meus objetivos e, consequentemente, melhorar minhas habilidades em HTML, CSS e Javascript através da realização destes projetos.
 
 </br>
 
