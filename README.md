@@ -214,8 +214,9 @@ Fala Devs, beleza? 🖖
 <img src="img\dayOrNight.png"/>
 <img src="https://j.gifs.com/OgkEZY.gif"/>
 
-Projeto desenvolvido recebendo os dados da API da Open Weather. </br>
-O projeto tem variação de cores de acordo com a hora do dia e, mudança na animação de acordo com o clima do tempo. As animações variam de 'céu limpo', chuva, nublado e tempestade. 
+Projeto desenvolvido recebendo os dados da API Open Weather. </br>
+O projeto tem variação de cores de acordo com a hora do dia, e mudança na animação de acordo com o clima do tempo. As animações variam de 'céu limpo', chuva, nublado e tempestade.</br>
+O projeto também busca os dados atuais de acordo com a geolocalização do usuário, e caso o usuário se nege a habilitar a geolocalização, ele popula a aplicação com os dados em tempo real da minha cidade.
 
 [Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-11)
 
