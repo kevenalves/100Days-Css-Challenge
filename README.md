@@ -169,7 +169,7 @@ Fala Devs, beleza? 🖖
  </br>
 
 ##  Desafio dia 09 - Notifications, Search and Menu
-<img src="https://j.gifs.com/pZKZE6.gif"/>
+<img src="https://j.gifs.com/nRXNRD.gif"/>
 
 Projeto feito consumindo a API. </br>
 Após pegar os repositórios, foi preciso filtra-los para pegar os 3 com os commits mais recentes, e com esses dados popular a aplicação.
