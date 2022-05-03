@@ -33,7 +33,7 @@ body {
 .container {
   position: relative;
   width: 25rem;
-  height: 25rem;
+  height: 27.3rem;
   border-radius: 2px;
   -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
@@ -48,7 +48,7 @@ body {
 .panel {
   position: absolute;
   z-index: 2;
-  height: 18.75rem;
+  height: 21.1rem;
   width: 18.75rem;
   top: 3.125rem;
   left: 3.125rem;
@@ -237,7 +237,7 @@ body {
   left: -1.25rem;
 }
 
-.panel .notifications .notification .time {
+.panel .notifications .notification .data {
   display: block;
   font-size: 0.688rem;
   line-height: 0.688rem;
@@ -333,4 +333,3 @@ body {
     opacity: 1;
   }
 }
-/*# sourceMappingURL=style.css.map */

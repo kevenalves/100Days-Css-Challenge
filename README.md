@@ -32,7 +32,7 @@ Fala Devs, beleza? 🖖
 
 </br>
 
-##  Desafio dia 02 - Menu Icon
+##  Desafio dia 02 - Menu Hamburger
 <img src="https://j.gifs.com/jYBpNv.gif"/>
 
 
@@ -171,7 +171,8 @@ Fala Devs, beleza? 🖖
 ##  Desafio dia 09 - Notifications, Search and Menu
 <img src="https://j.gifs.com/pZKZE6.gif"/>
 
-
+Projeto feito consumindo a API. </br>
+Após pegar os repositórios, foi preciso filtra-los para pegar os 3 com os commits mais recentes, e com esses dados popular a aplicação.
 
 [Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-09)
 
@@ -186,6 +187,14 @@ Fala Devs, beleza? 🖖
 * *[animation](https://css-tricks.com/almanac/properties/a/animation/)*
 * *[Animation fill-mode](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation-fill-mode)*
 * *[extend](https://css-tricks.com/the-extend-concept/)*
+* *[Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)*
+* *[Array](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)*
+* *[split](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split)*
+* *[reverse](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)*
+* *[join](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join)*
+* *[push](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/push)*
+* *[sort](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)*
+* *[slice](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)*
 
 </br>
 
