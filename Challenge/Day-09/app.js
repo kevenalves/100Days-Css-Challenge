@@ -59,7 +59,7 @@ function organizeRepo(itens) {
     
     let selectInfo = [];
     itens.forEach(i => {
-        let editDataHour = i.updated_at.split('T',2);
+        let editDataHour = i.pushed_at.split('T',2);
         let dataRepo = editDataHour[0].split("-").reverse().join("/");
         let id = editDataHour[0].split("-").join("");
         let user = i.owner.login;
