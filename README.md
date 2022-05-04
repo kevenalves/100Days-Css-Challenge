@@ -244,6 +244,23 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 12 - Tooltip
+<img src="https://j.gifs.com/VvrlGM.gif"/>
+
+
+
+[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-12)
+
+[CodePen](https://codepen.io/kevenalves/pen/MWQYXzL)
+
+
+##### O que eu aprendi/utilizei
+
+
+* *[content](https://css-tricks.com/css-content/)*
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
