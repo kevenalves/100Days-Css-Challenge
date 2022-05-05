@@ -261,7 +261,7 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
-##  Desafio dia 13 - Tooltip
+##  Desafio dia 13 - Elastic
 <img src="https://j.gifs.com/16q3No.gif"/>
 
 
