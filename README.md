@@ -281,6 +281,24 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 14 - Slider with Radio Buttons
+<img src="https://j.gifs.com/pZKl9p.gif"/>
+
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-14)*
+
+*[codePen](https://codepen.io/kevenalves/pen/XWZdXNJ)*
+
+
+##### O que eu aprendi/utilizei
+
+
+* *[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)*
+* *[transform](https://css-tricks.com/almanac/properties/t/translate/)*
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
