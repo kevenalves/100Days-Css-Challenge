@@ -321,7 +321,7 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
-##  Desafio dia 16 - Button
+##  Desafio dia 16 - Button Sucess
 <img src="https://j.gifs.com/EqvmXk.gif"/>
 
 
@@ -344,7 +344,7 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
-##  Desafio dia 16 - Hello animation
+##  Desafio dia 17 - Hello animation
 <img src="https://j.gifs.com/79z251.gif"/>
 
 
