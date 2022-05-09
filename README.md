@@ -321,6 +321,29 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 16 - Button
+<img src="https://j.gifs.com/EqvmXk.gif"/>
+
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-16)*
+
+*[codePen](https://codepen.io/kevenalves/pen/KKQzzWz)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[stroke](https://css-tricks.com/almanac/properties/s/stroke/)*
+* *[stroke-linecap](https://css-tricks.com/almanac/properties/s/stroke-linecap/)*
+* *[stroke-width](https://css-tricks.com/almanac/properties/s/stroke-width/)*
+* *[stroke-dasharray](https://css-tricks.com/almanac/properties/s/stroke-dasharray/)*
+* *[stroke-dashoffset](https://css-tricks.com/almanac/properties/s/stroke-dashoffset/)*
+* *[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)*
+* *[rotate](https://css-tricks.com/almanac/properties/r/rotate/)*
+
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
