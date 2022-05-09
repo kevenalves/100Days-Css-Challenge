@@ -295,7 +295,29 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 
 * *[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)*
-* *[transform](https://css-tricks.com/almanac/properties/t/translate/)*
+* *[translate](https://css-tricks.com/almanac/properties/t/translate/)*
+
+</br>
+
+##  Desafio dia 15 - Send Mail
+<img src="https://j.gifs.com/Brpj9X.gif"/>
+
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-15)*
+
+*[codePen](https://codepen.io/kevenalves/pen/gOvrPqB)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[stroke](https://css-tricks.com/almanac/properties/s/stroke/)*
+* *[stroke-linecap](https://css-tricks.com/almanac/properties/s/stroke-linecap/)*
+* *[stroke-width](https://css-tricks.com/almanac/properties/s/stroke-width/)*
+* *[stroke-dasharray](https://css-tricks.com/almanac/properties/s/stroke-dasharray/)*
+* *[translate3d](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d)*
+* *[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)*
+
 
 </br>
 
