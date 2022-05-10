@@ -365,6 +365,25 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 18 - Error Modal
+<img src="https://j.gifs.com/16qkKj.gif"/>
+
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-18)*
+
+*[codePen](https://codepen.io/kevenalves/pen/NWyrrXj)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[animation](https://css-tricks.com/almanac/properties/a/animation/)*
+* *[transition](https://css-tricks.com/almanac/properties/t/transition/)*
+* *[scale](https://css-tricks.com/almanac/properties/s/scale/)*
+
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
