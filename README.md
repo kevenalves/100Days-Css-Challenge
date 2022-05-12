@@ -384,6 +384,25 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 19 - Pixel Art
+<img src="https://j.gifs.com/NOjA5L.gif"/>
+
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-19)*
+
+*[codePen](https://codepen.io/kevenalves/pen/gOvwWae)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[Gerando Array Populado](https://devpleno.com/como-gerar-um-array-populado-em-javascript)*
+* *[forEach](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)*
+* *[innerHTML](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML)*
+
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
