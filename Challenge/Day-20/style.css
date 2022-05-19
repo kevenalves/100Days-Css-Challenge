@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #FDA231;
+  color: #497081;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.list {
+  width: 25rem;
+  height: auto;
+  background: #FFFFFF;
+  -webkit-box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-bottom: 1.5rem;
+  margin: 25vh 0;
+}
+
+.list .head {
+  padding: 20px 0;
+  margin: 0 30px;
+  border-bottom: 1px solid #D4DCE0;
+  margin-bottom: 16px;
+}
+
+.list .title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.list .subtitle {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.list .todo__new-item {
+  padding-bottom: 16px;
+  margin: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.list .todo__new-item input {
+  width: 80%;
+  height: 25px;
+  font-size: 12px;
+}
+
+.list .todo__list {
+  padding: 4px 0;
+  margin: 0 30px;
+}
+
+.list .todo__list .todo__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 16px;
+}
+
+.list .todo__list .todo__item div {
+  height: 100%;
+  width: 80%;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.list .todo__list .todo__item div:hover {
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+}
+
+.list .todo__item > input[type='checkbox'] {
+  margin-right: 10px;
+  accent-color: #30cc7e;
+  color: #eee;
+  cursor: pointer;
+}
+
+.list .todo__item > input[type='button'] {
+  margin-left: 10px;
+  background-color: #ee2626;
+  color: #fff;
+  cursor: pointer;
+}
+
+.list .todo__item > input[type='button']:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+.list .todo__item > input[type='button'],
+.list .todo__item > input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  font: inherit;
+  border: none;
+  border-radius: 50%;
+}
+
+.list .todo__item > input[type='checkbox']:checked {
+  color: white;
+}
+
+.list .todo__item > input[type='checkbox']:checked + div {
+  text-decoration: line-through;
+  font-style: italic;
+}
+/*# sourceMappingURL=style.css.map */

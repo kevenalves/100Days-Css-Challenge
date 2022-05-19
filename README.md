@@ -403,6 +403,23 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 20 - Todo List
+<img src="https://j.gifs.com/K8BK4x.gif"/>
+
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-20)*
+
+*[codePen](https://codepen.io/kevenalves/pen/dydWBOp)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[localStorage](https://tableless.com.br/guia-f%C3%A1cil-sobre-usar-localstorage-com-javascript/)*
+
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  @media (max-width: 1080px) {
+      font-size: 93.75%;
+  }
+  
+  @media (max-width: 720px) {
+      font-size: 87.5%;
+  }
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  background: #FDA231;
+  color: #497081;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.list {
+	width: 25rem;
+	height: auto;
+	background: #FFFFFF;
+	box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.10);
+	border-radius: 5px;
+	padding-bottom: 1.5rem;
+	margin: 25vh 0;
+	
+	.head {
+		padding: 20px 0;
+		margin: 0 30px;
+		border-bottom: 1px solid #D4DCE0;
+		margin-bottom: 16px;
+	}
+	
+	.title {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 30px;
+		text-align: center;
+	}
+	
+	.subtitle {
+		font-size: 12px;
+		line-height: 18px;
+		text-align: center;
+	}
+
+	.todo__new-item{
+		padding-bottom: 16px;
+		margin: 0 30px;
+		display: flex;
+		justify-content: center;
+		
+		input{
+			width: 80%;
+			height: 25px;
+			font-size: 12px;
+		}
+	}
+	
+	.todo__list {
+		padding: 4px 0;
+		margin: 0 30px;
+
+		.todo__item{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-bottom: 16px;
+
+			div{
+				height: 100%;
+				width: 80%;
+				cursor: pointer;
+				font-weight: 500;
+				margin: 0 auto;
+
+				&:hover{
+					filter: brightness(.6);
+				}
+			}
+		}
+		
+	}
+	
+	.todo__item > input[type='checkbox'] {
+		margin-right: 10px;
+		accent-color: #30cc7e;
+		color: #eee;
+		cursor: pointer;
+	}
+	
+	.todo__item > input[type='button'] {
+		margin-left: 10px;
+		background-color: rgb(238, 38, 38);
+		color: #fff;
+		cursor: pointer;
+
+		&:hover{
+			filter: brightness(.9);
+		}
+	}
+	
+	.todo__item > input[type='button'],
+	.todo__item > input[type='checkbox'] {
+		width: 20px;
+		height: 20px;
+		font: inherit;
+		border: none;
+		border-radius: 50%;    
+	}
+	
+	.todo__item > input[type='checkbox']:checked{
+		color: white;
+	}
+
+	.todo__item > input[type='checkbox']:checked + div {
+		text-decoration:line-through;
+		font-style: italic;
+
+	}
+	
+}
