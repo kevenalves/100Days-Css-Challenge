@@ -441,6 +441,24 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 22 - Animated Typography
+<img src="https://j.gifs.com/28Ak9J.gif"/>
+
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-22)*
+
+*[codePen](https://codepen.io/kevenalves/pen/QWQgMgW)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)*
+* *[animation](https://css-tricks.com/almanac/properties/a/animation/)*
+
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
