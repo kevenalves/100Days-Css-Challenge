@@ -479,6 +479,25 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 24 - Counter
+<img src="https://j.gifs.com/qQXxn0.gif"/>
+
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-24)*
+
+*[codePen](https://codepen.io/kevenalves/pen/bGLRaJd)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[@mixin](https://css-tricks.com/custom-user-mixins/)*
+* *[Operador Condicional Ternário](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)*
+
+
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

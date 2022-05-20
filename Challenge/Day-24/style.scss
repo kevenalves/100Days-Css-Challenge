@@ -1,0 +1,153 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+	background: #FDB03A;
+  background: -webkit-linear-gradient(bottom left, #D2592A 0%, #FDB03A 100%);
+  background: -moz-linear-gradient(bottom left, #D2592A 0%, #FDB03A 100%);
+  background: -o-linear-gradient(bottom left, #D2592A 0%, #FDB03A 100%);
+  background: linear-gradient(to top right, #D2592A 0%, #FDB03A 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2592A', endColorstr='#FDB03A',GradientType=1 );
+  color: #fff;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  color: #333;
+}
+
+@mixin draw-mark($type, $location) {
+	background-color: transparent;
+	transition: background-color .3s ease-out;
+	
+	$color: #FDB03A;
+	@if $type == plus {
+		$color: hsl(80, 55%, 60%);
+		
+		&::after {
+			content: '';
+			width: 3px;
+			height: 18px;
+			position: absolute;
+			#{$location}: 18.5px;
+			top: 0; bottom: 0;
+			margin: auto 0;
+			background-color: $color;
+			transition: background-color .3s ease-out;
+		}
+	}
+	&::before {
+		content: '';
+		width: 18px;
+		height: 3px;
+		position: absolute;
+		#{$location}: 11px;
+		top: 0; bottom: 0;
+		margin: auto 0;
+		background-color: $color;
+		transition: background-color .3s ease-out;
+	}
+	&:hover {
+		background-color: $color;
+		&::before,
+		&::after {
+			background-color: white;
+		}
+	}
+}
+
+.counter {
+  position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: auto;
+	
+	width: 130px;
+	height: 40px;
+	border-radius: 40px;
+	background-color: white;
+	box-shadow: -3px 6px 8px 1px hsla(0, 50%, 20%, 20%);
+	overflow: hidden;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	.count {
+		position: relative;
+    width: 50px;
+    height: 100%;
+		color: hsl(0, 10%, 55%);
+		font-size: 20px;
+		line-height: 20px;
+		user-select: none;
+		
+		div {
+			position: absolute;
+    	width: 100%;
+      line-height: 40px;
+			text-align: center;
+		}
+		.old {
+			&.up {
+				animation: fadeout .3s ease-in normal both;
+			}
+			&.down {
+				animation: fadein .3s ease-in reverse both;
+			}
+		}
+		.number {
+			&.up {
+				animation: fadein .3s ease-out .15s backwards;
+			}
+			&.down {
+				animation: fadeout .3s ease-in .15s reverse backwards;
+			}
+		}
+	}
+	
+	button {
+		z-index: 1;
+		width: 30px;
+		height: 30px;
+		margin: 5px;
+		
+		border: none;
+		border-radius: 50%;
+		cursor: pointer;
+		
+		&.minus {
+			@include draw-mark('minus', 'left');
+		}
+		&.plus {
+			@include draw-mark('plus', 'right');
+		}
+	}
+}
+
+@keyframes fadein {
+	from {
+		transform: scale(0.6);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes fadeout {
+	from {
+		transform: scale(1);
+		opacity: 1;
+	}
+	to {
+		transform: scale(2);
+		opacity: 0;
+	}
+}

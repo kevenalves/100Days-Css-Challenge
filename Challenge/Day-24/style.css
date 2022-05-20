@@ -1,0 +1,218 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #FDB03A;
+  background: -webkit-gradient(linear, left bottom, right top, from(#D2592A), to(#FDB03A));
+  background: linear-gradient(to top right, #D2592A 0%, #FDB03A 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2592A', endColorstr='#FDB03A',GradientType=1 );
+  color: #fff;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+}
+
+.counter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 130px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: white;
+  -webkit-box-shadow: -3px 6px 8px 1px #4d1a1a;
+          box-shadow: -3px 6px 8px 1px #4d1a1a;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.counter .count {
+  position: relative;
+  width: 50px;
+  height: 100%;
+  color: #988181;
+  font-size: 20px;
+  line-height: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.counter .count div {
+  position: absolute;
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+}
+
+.counter .count .old.up {
+  -webkit-animation: fadeout .3s ease-in normal both;
+          animation: fadeout .3s ease-in normal both;
+}
+
+.counter .count .old.down {
+  animation: fadein .3s ease-in reverse both;
+}
+
+.counter .count .number.up {
+  -webkit-animation: fadein .3s ease-out .15s backwards;
+          animation: fadein .3s ease-out .15s backwards;
+}
+
+.counter .count .number.down {
+  animation: fadeout .3s ease-in .15s reverse backwards;
+}
+
+.counter button {
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.counter button.minus {
+  background-color: transparent;
+  -webkit-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+}
+
+.counter button.minus::before {
+  content: '';
+  width: 18px;
+  height: 3px;
+  position: absolute;
+  left: 11px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: #FDB03A;
+  -webkit-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+}
+
+.counter button.minus:hover {
+  background-color: #FDB03A;
+}
+
+.counter button.minus:hover::before, .counter button.minus:hover::after {
+  background-color: white;
+}
+
+.counter button.plus {
+  background-color: transparent;
+  -webkit-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+}
+
+.counter button.plus::after {
+  content: '';
+  width: 3px;
+  height: 18px;
+  position: absolute;
+  right: 18.5px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: #acd161;
+  -webkit-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+}
+
+.counter button.plus::before {
+  content: '';
+  width: 18px;
+  height: 3px;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: #acd161;
+  -webkit-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+}
+
+.counter button.plus:hover {
+  background-color: #acd161;
+}
+
+.counter button.plus:hover::before, .counter button.plus:hover::after {
+  background-color: white;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
