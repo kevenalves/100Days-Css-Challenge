@@ -420,6 +420,27 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 21 - User Galery
+<img src="https://j.gifs.com/z6Npv8.gif"/>
+
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-21)*
+
+*[codePen](https://codepen.io/kevenalves/pen/abqwwyz)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)*
+* *[translate3d](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d)*
+* *[rotate](https://css-tricks.com/almanac/properties/r/rotate/)*
+* *[transition](https://css-tricks.com/almanac/properties/t/transition/)*
+* *[scale](https://css-tricks.com/almanac/properties/s/scale/)*
+
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
