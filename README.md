@@ -463,7 +463,6 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 <img src="https://j.gifs.com/gpVJ6Z.gif"/>
 
 
-
 *[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-23)*
 
 *[codePen](https://codepen.io/kevenalves/pen/GRQEMmg)*
@@ -483,7 +482,6 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 <img src="https://j.gifs.com/qQXxn0.gif"/>
 
 
-
 *[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-24)*
 
 *[codePen](https://codepen.io/kevenalves/pen/bGLRaJd)*
@@ -494,6 +492,22 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 * *[@mixin](https://css-tricks.com/custom-user-mixins/)*
 * *[Operador Condicional Ternário](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)*
 
+
+
+</br>
+
+##  Desafio dia 25 - Tabs
+<img src="https://j.gifs.com/08ygVL.gif"/>
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-25)*
+
+*[codePen](https://codepen.io/kevenalves/pen/eYVRjBX)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[pointer-events](https://developer.mozilla.org/pt-BR/docs/Web/CSS/pointer-events)*
 
 
 </br>
