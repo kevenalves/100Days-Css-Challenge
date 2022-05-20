@@ -459,6 +459,26 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 23 - Modal
+<img src="https://j.gifs.com/gpVJ6Z.gif"/>
+
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-23)*
+
+*[codePen](https://codepen.io/kevenalves/pen/GRQEMmg)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)*
+* *[animation](https://css-tricks.com/almanac/properties/a/animation/)*
+* *[scale](https://css-tricks.com/almanac/properties/s/scale/)*
+* *[setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)*
+
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
