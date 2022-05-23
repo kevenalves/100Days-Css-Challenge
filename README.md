@@ -581,6 +581,26 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 30 - END
+<img src="https://j.gifs.com/Qkq6x9.gif"/>
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-30)*
+
+*[codePen](https://codepen.io/kevenalves/pen/PoQKrbb)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[Stroke animation](https://css-tricks.com/svg-line-animation-works/)*
+* *[stroke](https://css-tricks.com/almanac/properties/s/stroke/)*
+* *[stroke-linecap](https://css-tricks.com/almanac/properties/s/stroke-linecap/)*
+* *[stroke-width](https://css-tricks.com/almanac/properties/s/stroke-width/)*
+* *[stroke-dasharray](https://css-tricks.com/almanac/properties/s/stroke-dasharray/)*
+
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
