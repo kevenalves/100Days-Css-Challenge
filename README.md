@@ -530,6 +530,24 @@ O projeto também busca os dados atuais de acordo com a geolocalização do usu�
 
 </br>
 
+##  Desafio dia 27 - Price Table
+<img src="https://j.gifs.com/w08K68.gif"/>
+
+
+*[Meu codigo no Github](https://github.com/kevenalves/100Days-Css-Challenge/tree/main/Challenge/Day-27)*
+
+*[codePen](https://codepen.io/kevenalves/pen/PoQKvXP)*
+
+
+##### O que eu aprendi/utilizei
+
+* *[transition](https://css-tricks.com/almanac/properties/t/transition/)*
+* *[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)*
+* *[translate3d](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d)*
+
+
+</br>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
